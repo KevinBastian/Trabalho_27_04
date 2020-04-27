@@ -1,0 +1,25 @@
+body{
+ background-color: rgb(red, green, blue);
+}
+h1{
+    color: rgb(252, 252, 252);
+    border: solid 2px white;
+    border-radius: 0px 15px;
+    padding: 10px;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-size: 40;
+}
+#div-form{
+    background-color: rgb(230, 36, 36);
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 0px 15px;
+}
+input{
+    background: rgb(255, 255, 255);
+}
+input[type="text"]{
+    background: rgb(252, 255, 255);
+}

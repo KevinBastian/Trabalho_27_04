@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho para dia 27</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" href="scripts.js">
+</head>
+<body>
+    <div id="div-form">
+    <script src="scripts.js"></script>
+    <h1> Cadastro de Produto </h1>
+    <form name="formContato" action="salvar.php" onsubmit="return validar()" method="GET" 
+    enctype="multipart/form-data" >
+    <p>
+    <label> Nome: <br> <input type="text" name="nome" id="nome" > <br> </label>
+    Preço: <br> <input type="number" name="txt_Preco" step="0.01" min="0.01" id="preco" > <br>
+    Quantidade: <br> <input type="number" name="num_Quantidade" id="quant" > <br>
+    Data de Validade: <br> <input type="date" name="num_Validade" id="validade" min="2020-05-04" > <br>
+    Foto do Produto: <br> <input type="file" name="imagem" id="imagem" > <br>
+    <br>
+    <select id="lista" >
+    <option value="" > Selecione a categoria do produto... </option> 
+    <option value="Roupa" > Roupas </option>
+    <option value="Comida" > Comidas </option>
+    <option value="Eletro" > Eletrônicos </option>
+    <option value="Perfume" > Perfumes </option>
+    <option value="Eletrodo" > Eletrodomésticos </option>
+    <option value="Brinquedo" > Brinquedos </option>
+
+    </select> <br>
+    
+    <br> <input type="submit" value="Salvar" >
+
+</p>
+    </form>
+</div>
+</body>
+</html>
